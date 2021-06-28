@@ -1,0 +1,6 @@
+C:\Users\Jim\Documents\ElevenFiftyProjects\DotNetProjects\KomodoDevTeamManagement\KomodoDevTeamManagement\obj\Debug\KomodoDevTeamManagement.csproj.AssemblyReference.cache
+C:\Users\Jim\Documents\ElevenFiftyProjects\DotNetProjects\KomodoDevTeamManagement\KomodoDevTeamManagement\obj\Debug\KomodoDevTeamManagement.csproj.CoreCompileInputs.cache
+C:\Users\Jim\Documents\ElevenFiftyProjects\DotNetProjects\KomodoDevTeamManagement\KomodoDevTeamManagement\bin\Debug\KomodoDevTeamManagement.dll
+C:\Users\Jim\Documents\ElevenFiftyProjects\DotNetProjects\KomodoDevTeamManagement\KomodoDevTeamManagement\bin\Debug\KomodoDevTeamManagement.pdb
+C:\Users\Jim\Documents\ElevenFiftyProjects\DotNetProjects\KomodoDevTeamManagement\KomodoDevTeamManagement\obj\Debug\KomodoDevTeamManagement.dll
+C:\Users\Jim\Documents\ElevenFiftyProjects\DotNetProjects\KomodoDevTeamManagement\KomodoDevTeamManagement\obj\Debug\KomodoDevTeamManagement.pdb
