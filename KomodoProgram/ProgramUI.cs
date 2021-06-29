@@ -36,7 +36,8 @@ namespace KomodoProgram
                     "4. Remove a Developer \n" +
                     "5. Add a new Team \n" +
                     "6. Show all Teams \n" +
-                    "7. Exit\n");
+                    "7. Pluralsight Report \n" +
+                    "8. Exit\n");
 
 
                 string userInput = Console.ReadLine();
@@ -68,6 +69,10 @@ namespace KomodoProgram
                         //Show all Teams
                         break;
                     case "7":
+                        PluralSightReport();
+                        //Pluralsight Report
+                        break;
+                    case "8":
                         //Exit
                         isRunning = false;
                         break;
@@ -274,8 +279,24 @@ namespace KomodoProgram
             Console.ReadKey();
         }
 
-        //Display Developer Content
-        private void DisplayContent(Developers content)
+        //Pluralsight
+        private void PluralSightReport()  //Search functionality
+        {
+            Console.Clear();
+        List<Developers> listOfContent = _developersContentDirectory.GetContents();
+            foreach (Developers dev in listOfContent)
+            {
+                if (dev.Pluralsight != true)
+                {
+                    DisplayContent(dev);
+                }
+            }
+            Console.WriteLine("Press any key to continue..");
+            Console.ReadKey();
+        }
+
+    //Display Developer Content
+    private void DisplayContent(Developers content)
         {
             Console.WriteLine($"Developer ID: {content.DevID}\n" +
                    $"Last Name: {content.DevLN}\n" +

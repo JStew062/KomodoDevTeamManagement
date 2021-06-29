@@ -32,7 +32,7 @@ namespace KomodoDevTeamManagement
             //Sort through all the items using DevID to find a match
             foreach (Developers content in _developersContentDirectory)
             {
-                if (content.DevID == devid) 
+                if (content.DevID == Developers.devid) 
                 {
                     return content;
                 }
